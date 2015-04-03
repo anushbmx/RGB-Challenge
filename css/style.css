@@ -1,0 +1,137 @@
+@import url(fonts/clear-sans.css);
+/* Pre Styles */
+header, footer, article, nav, section, aside, hgroup{
+	display:block;
+}
+
+html, body, header, footer, article, nav, section, aside, time, h1, h2, h3, p, a, ul, li, dl, dd, dt, table, thead, tfoot, tbody, th, tr, td{
+	border:0;
+	margin:0;
+	outline:0;
+	padding:0;
+}
+
+html{  
+	height: 100%; 
+	width: 100%;
+}
+
+body {
+    background: rgba(0, 0, 0,0.9);
+    color: rgba(255,255,255,0.9);
+    font-family: "Clear Sans", "Helvetica Neue", Arial, sans-serif;
+  	font-size: 18px;
+	height: 100%; 
+    text-rendering: optimizelegibility;
+	width: 100%;
+    -webkit-font-smoothing: antialiased;
+}
+
+@media only screen and (max-width: 40.063em) {
+	body{
+		font-size: 12px;
+	}
+}
+
+.header{
+	left: 0;
+	position: absolute;
+	text-align: center;
+	top: 0;
+	width: 100%;
+	z-index: 999;
+}
+
+.layer-1{
+	background: rgba(255, 255, 255,1.0);
+	color: #000;
+	padding: 1rem 0;
+}
+
+.layer-2{
+	padding:1rem 0;
+}
+
+.main-container{
+	display: table;
+	height: 100%;
+	width: 100%;
+}
+.container-wrap{
+	display: table-cell;
+	vertical-align: middle;
+}
+.container{
+	margin: 0 auto;
+	text-align: center;
+	width: 90%;
+}
+
+.playground{
+	position: relative;
+}
+
+.solution-wrapper{
+	margin: 0 auto;
+	list-style: none;
+}
+
+.solution-wrapper li{
+	background: rgba(189, 195, 199,1.0);
+	border-radius: 80px;
+	display: inline-block;
+	margin: 0.5rem;
+	height:60px;
+	width: 60px;
+}
+
+.question{
+	font-family: monospace;
+	padding: 1rem 0;
+}
+
+.high-score{
+	float: right;
+	margin: 0 1rem;
+}
+
+.score{
+	float: left;
+	margin: 0 1rem;
+}
+
+.notification{
+	background: rgba(0,0,0,1);
+	display: none;
+	height: 100%;
+	left: 0;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 3;
+	-webkit-transition: 2s; /* Safari */
+    transition: 2s;
+}
+
+.notification h1{
+	font-size: 3rem;
+	text-shadow: 0px 0px 10px rgba(0,0,0,0.8);
+}
+
+.button{
+	border: 1px solid rgba(255,255,255,1);
+	border-radius: 5px;
+	cursor: pointer;
+	display: inline-block;
+	margin: 1rem;
+	padding: 0.5rem 1rem;
+}
+
+.footer{
+	bottom: 0px;
+	left: 0px;
+	position: absolute;
+	text-align: center;
+	width: 100%;
+	z-index: 1;		
+}

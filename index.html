@@ -1,0 +1,75 @@
+<html lang="en-US">
+	<head>
+		<meta charset="utf-8" />
+		<title>RGB challenge</title>
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<script type="text/javascript" src="js/script.js"></script>
+		<script type="text/javascript" src="js/local.js"></script>
+		<script type="text/javascript" src="js/jquery.js"></script>
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" user-scalable="no">
+	</head>
+	<body>
+		<div class="container">
+			<div class="header">
+				<div class="layer-1">
+					<h1>RGB Color Challenge</h1>
+				</div>
+				<div class="layer-2">
+					<h4 class="score">Your Score : <span class="score-val">00</span></h4> <h4 class="high-score">High Score : <span class="high-score-val">00</span></h4>
+				</div>
+			</div>
+			<div class="main-container">
+				<div class="container-wrap">
+					<div class="container playground">
+						<h2 class="question">
+							rgb(255,255,255)
+						</h2>
+						<ul class="solution-wrapper">
+							<li class="solution"></li>
+							<li class="solution"></li>
+							<li class="solution"></li>
+						</ul>
+						<div class="notification endgame">
+							<div class="main-container">
+								<div class="container-wrap">
+									<div class="container">
+										<h1>Yikes</h1>
+										<p>That was an incorrect Option</p>
+										<h4>Your Scored : <span class="final-score">00</span></h4>
+										<a class="button play-again">Play Again</a>
+									</div>
+								</div>
+							</div>
+						</div>	
+						<div class="notification correct">
+							<div class="main-container">
+								<div class="container-wrap">
+									<div class="container">
+										<h1>Correct</h1>
+										<p>Congratulations, get ready for more</p>
+										<a class="button continue-play">Next</a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="notification instruction">
+							<div class="main-container">
+								<div class="container-wrap">
+									<div class="container">
+										<img src="img/icons/icon128x128.png">
+										<h1>Instructions</h1>
+										<p>Try to guess the color for the rgb code shown, and tap on correct color.</p>
+										<a class="button hide-instruction">Play</a>
+									</div>
+								</div>
+							</div>
+						</div>	
+					</div>
+				</div>
+			</div>	
+			<div class="footer">
+				<p><a class="button show-instructions">Instructions</a></p>
+			</div>
+		</div>
+	</body>
+</html>
